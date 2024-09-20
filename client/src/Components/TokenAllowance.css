@@ -1,0 +1,128 @@
+/* Container for the entire component */
+.token-allowance {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 250px;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h3{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .headingtemp{
+    text-align: center;
+    margin-left: 100px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  /* Header styling */
+  .token-allowance h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+  }
+  
+  /* Input group styling */
+  .input-group {
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #555;
+  }
+  
+  /* Styling for input fields */
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .input-group input:focus {
+    border-color: #9b59b6;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Button styling */
+  button {
+    background: linear-gradient(90deg, rgba(155,89,182,1) 0%, rgba(142,68,173,1) 100%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  button:hover {
+    background: linear-gradient(90deg, rgba(142,68,173,1) 0%, rgba(155,89,182,1) 100%);
+    transform: scale(1.05);
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  button:focus {
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Allowance display styling */
+  .allowance-display {
+    margin-top: 20px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s ease, transform 0.3s ease; /* Smooth transition */
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .allowance-display.hidden {
+    opacity: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .allowance-display h3 {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+  }
+  
+  .allowance-display p {
+    font-size: 18px;
+    color: #555;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    color: #721c24;
+    text-align: center;
+  }
+  
+  .error-message p {
+    margin: 0;
+  }
+  
