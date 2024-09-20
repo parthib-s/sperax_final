@@ -12,7 +12,7 @@ import TokenAllowance from './Components/TokenAllowance';
 import AOS from 'aos';
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 import 'aos/dist/aos.css'; // Import the AOS styles
-
+//adding to git
 AOS.init({
   duration: 1200, // Duration of the animation
 });
